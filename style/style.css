@@ -120,10 +120,36 @@ body{
     position: absolute;
     z-index: 1;
     bottom: 0px;
+    
 }
 
 
 .canzone-footer{
     width: 40px;
+    margin: 15px 10px;
 }
+
+.testo-footer{
+    font-size: 8px;
+    padding: 20px 5px;
+}
+.grosso-footer{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.fa-heart{
+    display: flex;
+    align-items: center;
+    margin-left: 20px; ;
+}
+
+.fa-folder{
+    display: flex;
+    align-items: center;
+    margin-left: 20px; ;
+}
+
+
+
 
