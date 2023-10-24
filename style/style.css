@@ -18,17 +18,22 @@ body{
     width: 20%;
     background-color: black;
     color: white;
-    height: 80%;
+    height: 841px;
 }
+
 
 .spotify{
     width: 70%;
     padding: 15px;
-    margin-bottom: 20px;
+   
 }
 
 .cont-icone-parole{
     padding: 5px 15px;
+}
+
+.verde{
+    border-left: 3px solid greenyellow;
 }
 
 .testo-icone{
@@ -54,4 +59,32 @@ body{
 .fa-square-plus{
     font-size: 38px;
     margin-right: 5px;
+}
+
+.playlist{
+    padding: 10px;
+}
+
+.testo-playlist{
+    padding: 5px 15px;
+}
+
+.bordo{
+    border-bottom: 1px solid white;
+}
+
+.fa-circle-down{
+    margin-right: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.fa-circle-user{
+    margin-right: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.john{
+    padding: 5px 0px;
 }
