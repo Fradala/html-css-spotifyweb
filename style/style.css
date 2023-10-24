@@ -3,3 +3,55 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+/*HEADER*/
+
+.contenitore-header{
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 80%;
+}
+
+.spotify{
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cont-icone-parole{
+    padding: 5px 15px;
+}
+
+.testo-icone{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.grosso{
+    font-weight: 600;
+}
+
+.fa-solid{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.titolo-playlist{
+    text-transform: uppercase;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+.fa-square-plus{
+    font-size: 38px;
+    margin-right: 5px;
+}
