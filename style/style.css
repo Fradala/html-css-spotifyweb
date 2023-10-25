@@ -385,10 +385,18 @@ nav{
 
 @media screen and (max-width:768px){
 
+    .contenitore-album{
+        flex-wrap: wrap;
+    }
+
     .album{
         width: calc((100% / 4) - 14px);
         margin: 10px 7px;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
     }
     .testo-nav{
         flex-wrap: wrap;
@@ -402,12 +410,17 @@ nav{
 
 @media screen and (max-width: 576px){
 
+    .contenitore-album{
+        flex-wrap: wrap;
+    }
+
     .album{
         width: calc((100% / 2) - 14px);
         margin: 10px 7px;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-    
+
+   
 }
 
 /*MEDIA QUERY XS*/
