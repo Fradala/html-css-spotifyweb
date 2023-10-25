@@ -36,6 +36,13 @@ body{
     padding: 5px 15px;
 }
 
+.bordo-casa{
+    width: 33px;
+    margin-left: -13px;
+    margin-right: 6px;
+    text-align: end;
+}
+
 .verde{
     border-left: 3px solid greenyellow;
 }
@@ -182,6 +189,8 @@ nav{
     list-style: none;
 }
 
+
+
 .testo-nav{
     text-transform: uppercase;
     margin: 0px 5px;
@@ -212,6 +221,15 @@ nav{
 .nome-album{
     font-weight: 600;
     font-size: 13px;
+    color: white;
+}
+
+.nomi-album{
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .testo-album{
     font-size: 11px;
@@ -257,7 +275,7 @@ nav{
 /*FOOTER*/
 
 .contenitore-footer{
-    width: 100%;
+    width: 100vw;
     background-color: #282828;
     color: white;
     justify-content: space-between;
@@ -268,6 +286,8 @@ nav{
     height: 90px;
     
 }
+
+
 
 
 .canzone-footer{
@@ -300,6 +320,7 @@ nav{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    
 }
 
 .play{
@@ -335,6 +356,7 @@ nav{
 
 .time{
     padding: 5px;
+    
 }
 
 .linea-tempo{
@@ -397,9 +419,11 @@ nav{
 
     .navbar{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .testo-nav{
-        flex-wrap: wrap;
+        margin: 0px 15px;
+        padding-top: 13px;
        
     }
 
@@ -420,12 +444,22 @@ nav{
         flex-wrap: wrap;
     }
 
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .testo-nav{
+        margin: 0px 20px;
+        padding-top: 13px;
+       
+    }
+
    
 }
 
 /*MEDIA QUERY XS*/
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 550px){
 
     .solo-xs{
         display: block;
@@ -456,6 +490,13 @@ nav{
         font-size: 15px;
     }
 
+    .fa-magnifying-glass{
+        margin-left: 5px;
+    }
+    .fa-list{
+        margin-left: 5px;
+    }
+
     .john-xs{
         display: block;
     }
@@ -466,6 +507,16 @@ nav{
 
     .fa-circle-down{
         margin-left: 6px;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .testo-nav{
+        margin: 0px 16px;
+        padding-top: 13px;
+       
     }
 
 
