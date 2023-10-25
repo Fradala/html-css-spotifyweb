@@ -87,7 +87,8 @@ body{
 }
 
 .contenitore-john{
-    padding-top: 110px;
+    position: absolute;
+    bottom: 0px;
 }
 
 .linea-bianca{
