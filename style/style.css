@@ -134,6 +134,8 @@ main{
     margin-left: 30vh;
     background-color: #141922;
     width: calc(100% - 30vh);
+    height: calc(100vh - 160px);
+    overflow: scroll;
 }
 
 nav{
