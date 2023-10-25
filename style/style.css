@@ -181,7 +181,7 @@ nav{
     color: white;
     display: flex;
     justify-content: center;
-    padding: 10px 5px;
+    padding: 20px 5px 4px 5px;
     font-size: 12px;
 }
 
@@ -220,7 +220,7 @@ nav{
 
 .nome-album{
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     color: white;
 }
 
@@ -232,7 +232,8 @@ nav{
     margin-bottom: 10px;
 }
 .testo-album{
-    font-size: 11px;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 .per-me{
