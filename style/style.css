@@ -15,7 +15,7 @@ body{
 /*HEADER*/
 
 .contenitore-header{
-    width: 30vh;
+    width: 185px;
     background-color: black;
     color: white;
     height: 841px;
@@ -25,8 +25,9 @@ body{
 }
 
 
+
 .spotify{
-    width: 70%;
+    width: 180px;
     padding: 15px;
    
 }
@@ -84,7 +85,7 @@ body{
 
 .linea-bianca{
     border-bottom: 1px solid white;
-    width: 185px;
+    width: 145px;
     margin-left: 19px;
 }
 
@@ -104,11 +105,37 @@ body{
     padding: 5px 0px;
 }
 
+.solo-xs{
+    display: none;
+    width: 60px;
+    height: calc(100% - 90px);
+    background-color: black;
+    position: absolute;
+    top:0px
+}
+
+.logo-piccolo{
+    width: 24px;
+    margin: 6px 5px 2px 15px;
+}
+
+.john-xs{
+    display: none;
+    position: absolute;
+    bottom: 99px;
+
+}
+
+
+
+
+
+
 /*FINTO HEADER*/
 
 .contenitore-bottone{
-    width: calc(100% - 30vh);
-    margin-left: 30vh;
+    width: calc(100% - 185px);
+    margin-left: 185px;
     background-color: rgb(32, 27, 27);
     color: white;
     text-align: end;
@@ -126,14 +153,17 @@ body{
 }
 
 
+
+
+
 /*MAIN*/
 
 
 main{
     
-    margin-left: 30vh;
+    margin-left: 185px;
     background-color: #141922;
-    width: calc(100% - 30vh);
+    width: calc(100% - 185px);
     height: calc(100vh - 160px);
     overflow: scroll;
 }
@@ -148,7 +178,7 @@ nav{
     font-size: 12px;
 }
 
-ul{
+.navbar{
     list-style: none;
 }
 
@@ -202,6 +232,11 @@ ul{
     width: 100%;
 }
 
+.rotondi{
+    overflow: hidden;
+    border-radius: 100%;
+}
+
 .titolo-per-me{
     font-size: 20px;
     color: white;
@@ -214,26 +249,6 @@ ul{
     margin-left: 18px;
     padding: 10px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -353,12 +368,79 @@ ul{
 
 /*MEDIA QUERY TABLET*/
 
-@media screen and {max-width: ;
+@media screen and (max-width:768px){
+
+    .album{
+        width: calc((100% / 4) - 14px);
+        margin: 10px 7px;
+       flex-wrap: wrap;
+    }
+    .testo-nav{
+        flex-wrap: wrap;
+       
+    }
+
     
 }
 
 /*MEDIA QUERY CELL*/
 
+@media screen and (max-width: 576px){
+
+    .album{
+        width: calc((100% / 2) - 14px);
+        margin: 10px 7px;
+       flex-wrap: wrap;
+    }
+    
+}
+
 /*MEDIA QUERY XS*/
+
+@media screen and (max-width: 576px){
+
+    .solo-xs{
+        display: block;
+    }
+
+    .contenitore-header{
+        display: none;
+    }
+
+    .contenitore-bottone{
+
+        width: calc(100% - 60px);
+        margin-left: 60px;
+    }
+
+    main{
+        width: calc(100% - 60px);
+        margin-left: 60px;
+    }
+
+    .fa-house{
+        font-size: 15px;
+    }
+    .fa-magnifying-glass{
+        font-size: 15px;
+    }
+    .fa-list{
+        font-size: 15px;
+    }
+
+    .john-xs{
+        display: block;
+    }
+
+    .linea-bianca{
+        display: none;
+    }
+
+    .fa-circle-down{
+        margin-left: 6px;
+    }
+
+
+}
 
 
