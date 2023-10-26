@@ -338,10 +338,11 @@ nav{
     display: flex;
     align-items: center;
     margin-left: 20px; ;
+    color: #959595;
 }
 .fa-heart:hover{
     color: white;
-    background-color: yellow;
+  
 }
 
 .fa-folder{
@@ -365,27 +366,80 @@ nav{
 .fa-circle-play{
     font-size: 30px;
     margin: 0px 10px;
+    color: #959595;
+}
+.fa-circle-play:hover{
+    color: white;
 }
 
 .fa-shuffle{
     font-size: 15px;
     margin: 8px 10px;
+    color: #959595;
+}
+.fa-shuffle:hover{
+    color: white;
 }
 
 .fa-angles-left{
     font-size: 15px;
     margin: 8px 10px;
+    color: #959595;
+}
+.fa-angles-left:hover{
+    color: white;
 }
 
 .fa-angles-right{
     font-size: 15px;
     margin: 8px 10px;
+    color: #959595;
+}
+.fa-angles-right:hover{
+    color: white;
 }
 
 .fa-arrow-rotate-left{
     font-size: 15px;
     margin: 8px 10px;
+    color: #959595;
 }
+.fa-arrow-rotate-left:hover{
+    color: white;
+}
+
+.fa-list{
+    color: #959595;
+}
+.fa-list:hover{
+    color: white;
+}
+.fa-tv{
+    color: #959595;
+}
+.fa-tv:hover{
+    color: white;
+}
+.fa-volume-high{
+    color: #959595;
+}
+
+.fa-volume-high:hover{
+    color: white;
+}
+.fa-folder{
+    color: #959595;
+}
+.fa-folder:hover{
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 .time{
