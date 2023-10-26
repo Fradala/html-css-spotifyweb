@@ -248,6 +248,7 @@ nav{
     margin: 10px 7px;
     text-align: center;
     padding-bottom: 30px;
+  
 }
 
 .foto-album:hover{
@@ -256,7 +257,7 @@ nav{
 
 .foto-album{
     width: 100%;
-    position: relative;
+    
     
 }
 
@@ -316,8 +317,15 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: none;
+    
 }
 
+
+
+.play-inisibile{
+    position: relative;
+}
 
 
 
