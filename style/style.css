@@ -14,8 +14,10 @@ body{
 
 /*HEADER*/
 
+
+
 .contenitore-header{
-    width: 185px;
+    width: 172px;
     background-color: black;
     color: #959595;
     height: 841px;
@@ -24,14 +26,9 @@ body{
     height: calc(100% - 90px);
 }
 
-
-
-
-
 .spotify{
-    width: 180px;
-    padding: 15px;
-   
+    width: 166px;
+    padding: 10px 15px 15px;
 }
 
 .cont-icone-parole{
@@ -90,7 +87,7 @@ body{
 }
 
 .playlist{
-    padding: 10px;
+    margin: 8px 5px 0px 4px;
 }
 
 .lista-playlist{
@@ -166,8 +163,8 @@ body{
 /*FINTO HEADER*/
 
 .contenitore-bottone{
-    width: calc(100% - 185px);
-    margin-left: 185px;
+    width: calc(100% - 172px);
+    margin-left: 172px;
     background-color: rgb(32, 27, 27);
     color: white;
     text-align: end;
@@ -199,9 +196,9 @@ body{
 
 main{
     
-    margin-left: 185px;
+    margin-left: 172px;
     background-color: #141922;
-    width: calc(100% - 185px);
+    width: calc(100% - 172px);
     height: calc(100vh - 160px);
     overflow: scroll;
 }
@@ -320,6 +317,7 @@ nav{
     display: none;
     
 }
+
 
 
 
